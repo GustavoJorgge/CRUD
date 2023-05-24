@@ -1,0 +1,44 @@
+package bdlivraria;
+
+import java.sql.SQLException;
+
+import javax.swing.JOptionPane;
+
+/*public class LivrariaMain {
+	
+	public static void main(String[]args) throws SQLException {
+		int opc;
+		InsereLivros insereLivro = new InsereLivros();
+		DeleteLivros deleteLivro = new DeleteLivros();
+		ConsultaLivros consultaLivro = new ConsultaLivros();
+		
+		do {
+			opc = Integer.parseInt(JOptionPane.showInputDialog("Entre com a ação desejada: \n 1 - Cadastrar Livro \n 2 - Pesquisar Livro por Preço \n 3 - Pesquisar Livro por Titulo \n 4 - Excluir Livro \n 5 - Sair"));
+			switch(opc) {
+			case 1: // Cadastrando novo Livro
+				int ID_isbn = Integer.parseInt(JOptionPane.showInputDialog("Entre com o ID do livro:"));
+				String titulo = JOptionPane.showInputDialog("Entre com o titulo do livro:");
+				Double preco = Double.parseDouble(JOptionPane.showInputDialog("Entre com o preco do livro:"));
+				insereLivro.insereDados(ID_isbn, titulo, preco);
+				break;
+				
+			case 2: // Pesquisando o Livro por preço
+				preco = Double.parseDouble(JOptionPane.showInputDialog("Entre com o preço minimo que deseja consultar: >="));
+				consultaLivro.getLivrosPorPreco(preco);
+				break;
+			case 3: // Pesquisando livro por nome
+				titulo = JOptionPane.showInputDialog(consultaLivro);
+				consultaLivro.getLivrosPorNome(titulo);
+				break;
+			case 4: // Deletando livro
+				ID_isbn = Integer.parseInt(JOptionPane.showInputDialog("Entre com o id que deseja excluir:",JOptionPane.ERROR_MESSAGE));
+				String aux = String.valueOf(ID_isbn);
+				deleteLivro.deleteLivro(aux);
+				default:
+			}
+			
+			
+		}while(opc!=5);
+		
+	}
+}*/

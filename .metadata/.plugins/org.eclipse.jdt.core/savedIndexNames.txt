@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\Users\gusta\OneDrive\Área de Trabalho\programas\programas original\Orientação a Objetos\CRUD\.metadata\.plugins\org.eclipse.jdt.core
+484772517.index
+1535177651.index
+1797649474.index
+1865797976.index
